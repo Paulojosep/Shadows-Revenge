@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 9129089844534792852}
   - component: {fileID: 6316260902950881801}
   - component: {fileID: 8287317904845242559}
+  - component: {fileID: 160531691}
+  - component: {fileID: 160531695}
   m_Layer: 0
   m_Name: Demon
   m_TagString: Untagged
@@ -105,3 +107,36 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!70 &160531691
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4719100681178862549}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.4954853, y: -1.077106}
+  m_Size: {x: 3.2832222, y: 5.3662233}
+  m_Direction: 0
+--- !u!114 &160531695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4719100681178862549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd67d4a8c1de6b428323ee433d9a975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  jumpForce: 5
+  maxHealth: 100
+  maxStamina: 100
+  attackDamage: 10
